@@ -11,10 +11,10 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from dotenv import load_dotenv
 
 # Configurações e inicializações
-load_dotenv()
+#load_dotenv()
 
 DB_URL = "sqlite:///predictions.db"
-JWT_SECRET = os.getenv("JWT_SECRET")
+JWT_SECRET = ""
 JWT_ALGORITHM = "HS256"
 JWT_EXP_DELTA_SECONDS = 3600
 
